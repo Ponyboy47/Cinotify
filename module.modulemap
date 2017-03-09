@@ -1,5 +1,5 @@
 module inotify [system] {
-  header "/usr/include/inotify.h"
+  header "/usr/include/x86_64-linux-gnu/sys/inotify.h"
   link "inotify"
   export *
 }
