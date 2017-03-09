@@ -16,9 +16,9 @@ Just like in C, only swifty
 ```swift
 import inotify
 
-let filedescriptor = inotify.inotify_init()
+let filedescriptor = inotify_init()
 
-let watchedDescriptor = inotify.inotify_add_watch(filedescriptor, "~/", UInt32(inotify.IN_ALL_EVENTS))
+let watchedDescriptor = inotify_add_watch(filedescriptor, "~/", UInt32(IN_ALL_EVENTS))
 
 // More usage examples later
 ```
