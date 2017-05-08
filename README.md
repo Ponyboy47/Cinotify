@@ -3,8 +3,6 @@ inotify module for swift
 
 Allows using the GNU inotify library in swift.
 
-This module uses the default GNU inotify library header for Ubuntu 16.04 x86_64 architecture.
-
 ## Installation
 Add the following dependency to your Package.swift
 ```swift
