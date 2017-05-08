@@ -1,0 +1,4 @@
+module inotify [system] {
+  header "inotify_wrapper.h"
+  export *
+}
