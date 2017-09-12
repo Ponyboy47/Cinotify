@@ -1,4 +1,4 @@
-module inotify [system] {
+module Cinotify [system] {
   header "inotify_wrapper.h"
   export *
 }
