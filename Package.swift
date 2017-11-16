@@ -1,8 +1,19 @@
+// swift-tools-version:4.0
+
 import PackageDescription
 
 let package = Package(
     name: "Cinotify",
+    products: [
+        .library(
+            name: "Cinotify",
+            targets: ["Cinotify"]),
+    ],
     dependencies: [
-        .Package(url: "https://github.com/Ponyboy47/CSelect.git", majorVersion: 1)
+    ],
+    targets: [
+        .target(
+            name: "Cinotify",
+            dependencies: []),
     ]
 )

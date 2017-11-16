@@ -4,3 +4,5 @@
 /*.xcodeproj
 .*.swp
 /Package.pins
+/Package.resolved
+.AppleDouble
