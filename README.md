@@ -6,13 +6,13 @@ Allows using the GNU inotify library in swift.
 ## Installation
 Add the following dependency to your Package.swift
 ```swift
-.Package(url: "https://github.com/Ponyboy47/inotify.git", majorVersion: 1)
+.Package(url: "https://github.com/Ponyboy47/Cinotify.git", majorVersion: 2)
 ```
 
 ## Usage
 Just like in C, only swifty
 ```swift
-import inotify
+import Cinotify
 import CSelect
 import Glibc
 
