@@ -6,7 +6,7 @@ Allows using the GNU inotify library in swift.
 ## Installation
 Add the following dependency to your Package.swift
 ```swift
-.Package(url: "https://github.com/Ponyboy47/Cinotify.git", majorVersion: 2)
+.package(url: "https://github.com/Ponyboy47/Cinotify.git", .upToNextMinor(from: "3.0.0"))
 ```
 
 ## Usage
